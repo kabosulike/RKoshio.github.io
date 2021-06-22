@@ -1,0 +1,27 @@
+<HTML>
+
+<HEAD>
+	<TITLE>日付の練習</TITLE>
+</HEAD>
+<meta charset="utf-8" />
+<!--ここからＢＯＤＹ-->
+
+<BODY>
+	<FORM>
+		<button type="button" onclick="time()">
+			現在時間
+		</button>
+	</FORM>
+
+	<!--ここからJavaScript-->
+	<SCRIPT Language="JavaScript">
+		function time() {
+			today = new Date();
+			alert(today.getHours() + "時" + today.getMinutes() + "分です。");
+		}
+	</SCRIPT>
+	<!-- JavaScript終了 -->
+</BODY>
+<!-- BODY終了 -->
+
+</HTML>
