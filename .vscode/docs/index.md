@@ -8,8 +8,6 @@
 
 email: 1120702@ed.tus.ac.jp
 
-
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kabosulike/rkoshio.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
