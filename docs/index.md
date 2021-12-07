@@ -1,3 +1,11 @@
+##基本情報
+氏名: 小塩 遼太郎(こしお りょうたろう)
+身分: 博士課程二年
+所属: 東京理科大学理学研究科数学専攻
+email: 1120702@ed.tus.ac.jp
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kabosulike/rkoshio.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
