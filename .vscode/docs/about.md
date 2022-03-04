@@ -1,2 +1,0 @@
-name ryotora koshio
-TUS
