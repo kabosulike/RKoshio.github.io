@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Page Title</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<script src='main.js'></script>
+</head>
+
+<body>
+	<table border="1">
+		<tr>
+			<th>言語名</th>
+			<th>ヨミガナ</th>
+		</tr>
+		<tr>
+			<td>Java</td>
+			<td>ジャバ</td>
+		</tr>
+		<tr>
+			<td>PHP</td>
+			<td>ピーエイチピー</td>
+		</tr>
+		<tr>
+			<td>Perl</td>
+			<td>パール</td>
+		</tr>
+		<tr>
+			<td>Ruby</td>
+			<td>ルビー</td>
+		</tr>
+	</table>
+	<table border="1">
+		<tr>
+			<td colspan="2">二つ項目</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+	</table>
+	<table border="1">
+		<tr>
+			<td rowspan="2"> 2つの項目を連結</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>2</td>
+		</tr>
+	</table>
+	簡単な計算をJavaScriptで行う<br>
+	<script lang="ja">
+		document.write("簡単な計算<br>");
+		for (i = 1; i < 6; i++) {
+			kazu = i + i;
+			document.write(i + "足す" + i + "は" + kazu + "です。<br>");
+		}
+	</script>
+	<p>外部ファイルからJava Scriptは読み込んだ方が良いと思うんですよね。</p>
+
+	<script src="whileloop.js"></script>
+
+	<form name="myform">
+		<select name="kotae">
+			<option value="1">1月</option>
+			<option value="2">2月</option>
+			<option value="3">3月</option>
+			<option value="4">4月</option>
+			<option value="5">5月</option>
+			<option value="6">6月</option>
+			<option value="7">7月</option>
+			<option value="8">8月</option>
+			<option value="9">9月</option>
+			<option value="10">10月</option>
+			<option value="11">11月</option>
+			<option value="12">12月</option>
+		</select>
+		<input type="button" value="チェック" onclick="alert('入力した文字は、'+document.myform.kotae.value)">
+	</form>
+</body>
+
+</html>
